@@ -3,7 +3,7 @@ import "./Landing.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Landing = ({ id }) => {
-    const resumeUrl = "https://treknuts-image-bucket.s3.us-east-2.amazonaws.com/Resume.pdf";
+    const resumeUrl = "https://treknuts-image-bucket.s3.us-east-2.amazonaws.com/resume.pdf";
 
     const handleClickScroll = () => {
         const element = document.getElementById("about");
