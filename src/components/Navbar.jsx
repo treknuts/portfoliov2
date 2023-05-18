@@ -28,8 +28,7 @@ const Navbar = ({ id }) => {
     }
 
     const handleScroll = useCallback(() => {
-        const currentYPos = window.scrollY
-        console.log(prevScrollPos - currentYPos)
+        const currentYPos = window.scrollY;
         setVisible(prevScrollPos > currentYPos);
         setPrevScrollPos(currentYPos);
     }, [prevScrollPos])
