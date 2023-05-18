@@ -1,0 +1,19 @@
+#projects {
+    background-color: #67ff02;
+}
+
+#projects > h1 {
+    padding: 5vmin;
+    font-size: clamp(32px, calc(2rem + ((1vw - 7.68px) * 3.4722)), 72px);
+    text-align: center;
+}
+
+.project-container {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 2em;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(55vmin, 1fr));
+    padding: 0 5vmin 5vmin 5vmin;
+}

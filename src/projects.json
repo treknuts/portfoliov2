@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Robotics Capstone",
+    "description": "A Python program that commands a bot through a simulated obstacle course. The program takes advantage of localization, path-planning, and path-following algorithms.",
+    "imageUrl": "https://treknuts-image-bucket.s3.us-east-2.amazonaws.com/projects-images/robot-mockup.jpg",
+    "githubUrl": "https://www.github.com/treknuts/robotics-project",
+    "stack": ["Python"]
+  },
+  {
+    "title": "Audit Error Tracker",
+    "imageUrl": "https://treknuts-image-bucket.s3.us-east-2.amazonaws.com/projects-images/capstone-mockup.jpg",
+    "description": "Capstone project for Noridian Healthcare Solutions. My team developed an application that allows managers to upload files and track errors on audits. Users have a plethora of filtering options to view results.",
+    "githubUrl": "https://github.com/treknuts/NoridianCapstone",
+    "stack": ["Python", "MySQL"]
+  },
+  {
+    "title": "Brick Breaker",
+    "imageUrl": "https://treknuts-image-bucket.s3.us-east-2.amazonaws.com/projects-images/brickbreaker-mockup.jpg",
+    "description": "Remake of the retro arcade game Brick Breaker.",
+    "githubUrl": "https://github.com/treknuts/BrickBreaker",
+    "stack": ["Java"]
+  },
+  {
+    "title": "ChetBot",
+    "imageUrl": "https://treknuts-image-bucket.s3.us-east-2.amazonaws.com/projects-images/chet-mockup.jpg",
+    "description": "A Discord chat bot that responds to commands provided in text channels on a server.",
+    "githubUrl": "https://github.com/treknuts/chet-bot",
+    "stack": ["JavaScript", "NodeJs"]
+  },
+  {
+    "title": "Sort Visualizer",
+    "imageUrl": "https://treknuts-image-bucket.s3.us-east-2.amazonaws.com/projects-images/sort-mockup.gif",
+    "description": "Python program using Matplotlib to visualize common sorting algorithms quantifying the number of operations and runtime.",
+    "githubUrl": "https://github.com/treknuts/sort-visualizer",
+    "stack": ["Python"]
+  },
+  {
+    "title": "TODO App",
+    "imageUrl": "https://treknuts-image-bucket.s3.us-east-2.amazonaws.com/projects-images/todo-mockup.jpg",
+    "description": "SPA that allows users to track TODO tasks. Users can organize tasks by priority and progress.",
+    "githubUrl": "https://github.com/treknuts/vue-todo",
+    "stack": ["VueJs", "JavaScript"]
+  }
+]

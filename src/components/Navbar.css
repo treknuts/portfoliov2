@@ -1,0 +1,13 @@
+.nav-item {
+    font-weight: 600;
+    padding: 0.5em 1em;
+    border: 2px solid #f08080;
+    color: #eee;
+    transition: color 300ms ease, border-color 300ms ease, background-color 300ms ease;     
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: #f08080;
+    border-color: #0266ff;
+}
