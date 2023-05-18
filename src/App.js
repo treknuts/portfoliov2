@@ -10,7 +10,7 @@ function App() {
     <main id="content">
       <Navbar id="navbar" />
       <Landing id="landing" />
-      <About id="about" />
+      <About id="skills" />
       <Projects id="projects" />
       <Footer />
     </main>

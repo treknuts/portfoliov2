@@ -1,53 +1,24 @@
-#about {
-    background-color: #f08080;
+#skills {
+    background-color: #222;
     color: #222;
     padding: 5vmin 0;
 }
 
-#about > .about-text {
-    width: min(100vw - 2em, 700px);
-    color: #eee;
-    margin: 0 auto;
-}
-
-#about > .about-text > h3, #about > .about-text > p {
-    z-index: 3;
-}
-
-#about > .about-text > h3 {
-  font-size: clamp(24px, calc(1.5rem + ((1vw - 7.68px) * 2.0833)), 48px);
-}
-
-#about > .about-text > p {
-    margin-top: 3vmin;
-}
-
-#about > h1 {
-    font-size: clamp(32px, calc(2rem + ((1vw - 7.68px) * 3.4722)), 72px);
-    margin-top: 10vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5em;
-}
-
-#about > .skills {
+#skills > .skills {
     display: grid;
     place-content: center;
     grid-template-columns: repeat(auto-fit, minmax(35vmin, 1fr));
     gap: 1em;
-    padding: 5vmin;
     font-size: clamp(16px, calc(1.25rem + ((1vw - 7.68px) * 2.1701)), 32px);
     font-weight: 700;
     width: min(100vw - 1em, 80%);
     margin: 0 auto;
     color: #eee;
     position: relative;
-    padding: 2em 0;
     z-index: 1;
 }
 
-#about > .skills > div {
+#skills > .skills > div {
     background-color: #222;
     text-align: center;
     padding: 1em 0;
@@ -55,7 +26,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-#about > .skills > div::before {
+#skills > .skills > div::before {
     content: "";
     position: absolute;
     height: 100%;

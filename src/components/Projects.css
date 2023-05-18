@@ -1,14 +1,9 @@
 #projects {
-    background-color: #67ff02;
-}
-
-#projects > h1 {
-    padding: 5vmin;
-    font-size: clamp(32px, calc(2rem + ((1vw - 7.68px) * 3.4722)), 72px);
-    text-align: center;
+    background-color: #222;
 }
 
 .project-container {
+    margin-top: 3vmin;
     width: 100%;
     margin: 0 auto;
     display: grid;

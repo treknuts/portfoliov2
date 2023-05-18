@@ -13,22 +13,30 @@
     width: 100%;
     position: relative;
     background-color: #0266ff;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#landing > .title > h1 {
-    color: #222;
-    font-size: clamp(32px, calc(2rem + ((1vw - 7.68px) * 3.4722)), 72px);
+#landing > .main-title {
+    padding: 3em;
 }
 
-#landing > .title > h3 {
+#landing > .main-title > h1 {
+    color: #222;
+    font-size: clamp(2.4em, calc(2.4rem + ((1vw - 0.48em) * 3.6111)), 5em);
+    margin: 0;
+    line-height: 1.2ch;
+}
+
+#landing > .main-title > h3 {
     color: #eee;
-    line-height: 0.7rem;
-    font-size: clamp(20px, calc(1.25rem + ((1vw - 7.68px) * 2.1701)), 45px);
+    font-size: clamp(1.5em, calc(1.5rem + ((1vw - 0.48em) * 2.0833)), 3em);
+}
+
+#landing > .main-title > p {
+    color: #eee;
 }
 
 #landing > .resume-btn {

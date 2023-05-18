@@ -1,0 +1,9 @@
+.title {
+    width: max-content;
+    font-size: clamp(32px, calc(2rem + ((1vw - 7.68px) * 3.4722)), 72px);
+    margin-top: 5vmin;
+    margin-bottom: 5vmin;
+    margin-inline: auto;
+    padding: 0.25em .75em;
+    background-color: #F08080;
+}
