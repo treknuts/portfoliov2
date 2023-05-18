@@ -5,7 +5,7 @@
 }
 
 #about > .about-text {
-    width: min(100vw - 2em, 900px);
+    width: min(100vw - 2em, 700px);
     color: #eee;
     margin: 0 auto;
 }

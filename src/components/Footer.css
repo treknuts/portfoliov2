@@ -1,0 +1,40 @@
+#footer {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    padding: 5vmin;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #F08080;
+    color: #eee;
+}
+
+#footer > .credit, #footer > .socials {
+    font-size: clamp(1.15em, calc(1.15rem + ((1vw - 0.48em) * 1.1806)), 2em);
+}
+
+#footer > .socials {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+#footer > .socials > .github {
+    color: #161b22;
+}
+
+#footer > .socials > .linkedin {
+    color: #0a66c2;
+}
+
+#footer > .socials > .codepen {
+   color: #1e1f26; 
+}
+
+#footer > .socials > .email {
+    color: #67ff02;
+}
+
