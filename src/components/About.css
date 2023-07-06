@@ -1,10 +1,10 @@
 #skills {
-    background-color: #222;
+    /* background-color: #222; */
     color: #222;
     padding: 5vmin 0;
 }
 
-#skills > .skills {
+#skills>.skills {
     display: grid;
     place-content: center;
     grid-template-columns: repeat(auto-fit, minmax(35vmin, 1fr));
@@ -18,7 +18,7 @@
     z-index: 1;
 }
 
-#skills > .skills > div {
+#skills>.skills>div {
     background-color: #222;
     text-align: center;
     padding: 1em 0;
@@ -26,13 +26,13 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-#skills > .skills > div::before {
+#skills>.skills>div::before {
     content: "";
     position: absolute;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
-    background: radial-gradient(rgba(255, 255, 255, 0.2) 8%, transparent 8%);   
+    background: radial-gradient(rgba(255, 255, 255, 0.2) 8%, transparent 8%);
     background-size: 3vmin 3vmin;
 }

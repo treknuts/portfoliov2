@@ -14,7 +14,7 @@ const Navbar = ({ id }) => {
     gap: "3em",
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#222",
+    backgroundColor: "#181818",
     color: "#eee",
     left: 0,
     transition: "top 300ms",

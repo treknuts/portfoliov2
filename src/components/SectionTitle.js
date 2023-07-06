@@ -8,6 +8,7 @@ const SectionTitle = ({ title, bgColor, color }) => {
     marginBottom: "5vmin",
     marginInline: "auto",
     padding: "0.25em .75em",
+    color: "#181818",
     boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
   };
   return (

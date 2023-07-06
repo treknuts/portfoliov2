@@ -1,9 +1,13 @@
 @keyframes animateArrow {
     0% {
         bottom: 20px;
-    } 50% {
+    }
+
+    50% {
         bottom: 0px;
-    } 100% {
+    }
+
+    100% {
         bottom: 20px;
     }
 }
@@ -12,34 +16,39 @@
     height: 100%;
     width: 100%;
     position: relative;
-    background-color: #0266ff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#landing > .main-title {
+#landing>.main-title {
     padding: 3em;
+    text-align: center;
 }
 
-#landing > .main-title > h1 {
-    color: #222;
+#landing>.main-title>h1 {
+
     font-size: clamp(2.4em, calc(2.4rem + ((1vw - 0.48em) * 3.6111)), 5em);
-    margin: 0;
-    line-height: 1.2ch;
+    line-height: 1.3em;
+    letter-spacing: -2%;
 }
 
-#landing > .main-title > h3 {
+#landing>.main-title>h3 {
     color: #eee;
     font-size: clamp(1.5em, calc(1.5rem + ((1vw - 0.48em) * 2.0833)), 3em);
+    line-height: 1.3em;
+    letter-spacing: -2%;
 }
 
-#landing > .main-title > p {
+#landing>.main-title>p {
     color: #eee;
+    letter-spacing: -0.5%;
+    max-width: 70ch;
+    margin: 0 auto;
 }
 
-#landing > .resume-btn {
+#landing>.resume-btn {
     font-weight: 600;
     margin-top: 2em;
     padding: 0.5em 1em;
@@ -48,12 +57,11 @@
     transition: color 300ms ease, border-color 300ms ease, background-color 300ms ease;
 }
 
-#landing > .resume-btn:hover {
+#landing>.resume-btn:hover {
     background-color: #f08080;
     color: #222;
     border-color: #0266ff;
 }
-
 
 .arrow {
     position: absolute;
